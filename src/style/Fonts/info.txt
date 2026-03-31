@@ -1,0 +1,13 @@
+Folder: Fonts
+Files: 5
+
+sf-pro-text_regular.ttf - 653.42 KB
+sf-pro-text_semibold.ttf - 663.99 KB
+sf-pro-icons_regular.ttf - 22.80 KB
+sf-pro-display_regular.ttf - 629.02 KB
+sf-pro-display_bold.ttf - 671.29 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00
