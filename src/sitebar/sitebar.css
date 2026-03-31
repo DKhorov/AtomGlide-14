@@ -1,0 +1,86 @@
+
+.nav {
+  background-color: var(--theme-surface) !important;
+  border-bottom: 1px solid var(--theme-border) !important;
+  transition: background-color 0.3s ease;
+}
+
+.nav3 {
+  background-color: var(--theme-surface) !important;
+  border-bottom: 1px solid var(--theme-border) !important;
+  transition: background-color 0.3s ease;
+}
+
+.header-left .logo {
+  color: var(--theme-text) !important;
+}
+
+.header-left .logo span {
+  color: var(--theme-text) !important;
+}
+
+.nav-itemsр {
+  color: var(--theme-text) !important;
+  transition: color 0.3s ease;
+}
+
+.nav-itemsр:hover {
+  color: var(--theme-accent) !important;
+}
+
+.search-bar {
+  width: 100%;
+}
+
+.search-bar input {
+  background-color: var(--theme-surface) !important;
+  color: var(--theme-text) !important;
+  border: 1px solid var(--theme-border) !important;
+  transition: all 0.3s ease;
+}
+
+.search-bar input::placeholder {
+  color: var(--theme-text-secondary) !important;
+}
+
+.search-bar input:focus {
+  border-color: var(--theme-accent) !important;
+  outline: none;
+}
+
+.create-post-btn {
+  background-color: var(--theme-accent) !important;
+  color: white !important;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.create-post-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.profile-avatar {
+  border: 2px solid var(--theme-border) !important;
+  transition: border-color 0.3s ease;
+}
+
+.mobile-menu-overlay {
+  background-color: var(--theme-background) !important;
+}
+
+.mobile-menu-item {
+  color: var(--theme-text) !important;
+}
+
+.mobile-menu-item:hover {
+  color: var(--theme-accent) !important;
+}
+
+/*
+ AtomGlide Front-end Client
+ Author: Dmitry Khorov
+ GitHub: DKhorov
+ Telegram: @dkdevelop @jpegweb
+ 2025 Project
+*/
