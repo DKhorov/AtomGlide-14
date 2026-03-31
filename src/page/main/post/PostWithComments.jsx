@@ -145,9 +145,6 @@ const PostWithComments = memo(({ post, onDelete, onPostUpdate,isFullPost }) => {
           </Box>
         </Stack>
 
-        <IconButton onClick={handleOpenShareModal} sx={{ bgcolor: '#25262b', color: '#fff', borderRadius: '12px', '&:hover': { bgcolor: '#333' } }}>
-          <ShareOutlined sx={{ fontSize: 20 }} />
-        </IconButton>
       </Stack>
 
       {/* Суфлер */}
