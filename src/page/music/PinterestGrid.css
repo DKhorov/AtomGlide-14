@@ -1,0 +1,51 @@
+/* Сетка Masonry */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px; /* Компенсация отступа слева */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 16px; /* Расстояние между колонками */
+  background-clip: padding-box;
+}
+
+/* Карточка пина */
+.pin-card {
+  position: relative;
+  margin-bottom: 16px; /* Расстояние снизу */
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.pin-card:hover {
+  filter: brightness(0.9);
+}
+
+/* Изображения и видео */
+.pin-media {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Оверлей (текст поверх фото) */
+.pin-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  padding: 20px 10px 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.pin-card:hover .pin-overlay {
+  opacity: 1;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BRAT RAW</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body { background: #000; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; overflow: hidden; font-family: sans-serif; }
+        textarea { position: absolute; top: 20px; z-index: 10; width: 300px; background: rgba(255,255,255,0.1); border: 1px solid #8ACE00; color: #8ACE00; padding: 10px; border-radius: 5px; outline: none; }
+        canvas { width: 500px; height: 500px; background: #8ACE00; box-shadow: 0 0 50px rgba(138, 206, 0, 0.3); image-rendering: pixelated; cursor: pointer; }
+        .info { color: #555; margin-top: 10px; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <textarea id="t" placeholder="ПЕЧАТАЙ ТУТ..." autofocus></textarea>
+    <canvas id="c" width="1000" height="1000"></canvas>
+    <div class="info">Кликни на квадрат, чтобы сохранить</div>
+
+    <script>
+        const c = document.getElementById('c'), x = c.getContext('2d'), t = document.getElementById('t');
+        let pos = 0;
+
+        function draw() {
+            const val = t.value.toLowerCase();
+            // Фон brat
+            x.filter = 'none';
+            x.fillStyle = '#8ACE00';
+            x.fillRect(0, 0, 1000, 1000);
+
+            if (!val) return;
+
+            // Агрессивные настройки
+            let fs = 450; 
+            x.fillStyle = 'black';
+            
+            // Подбор размера
+            let lines = [];
+            do {
+                x.font = `500 ${fs}px "Archivo Narrow", Arial`;
+                const words = val.split(/\s+/);
+                lines = []; let cur = words[0];
+                for (let i = 1; i < words.length; i++) {
+                    if (x.measureText(cur + " " + words[i]).width < 850) cur += " " + words[i];
+                    else { lines.push(cur); cur = words[i]; }
+                }
+                lines.push(cur);
+                fs -= 10;
+            } while ((lines.length * fs * 0.9 > 850) && fs > 30);
+
+            // Эффект грязи
+            x.filter = 'blur(2px) contrast(1.5) brightness(0.9)';
+            
+            // Хаотичное выравнивание
+            const aligns = ['left', 'center', 'right'];
+            const curAlign = aligns[pos % 3];
+            x.textAlign = curAlign;
+            
+            let tx = 500;
+            if(curAlign === 'left') tx = 60;
+            if(curAlign === 'right') tx = 940;
+
+            const lh = fs * 0.85;
+            // Рандомное смещение по вертикали (чуть-чуть)
+            let ty = (1000 - (lines.length * lh)) / 2 + (lh / 2) + (Math.random() * 40 - 20);
+
+            lines.forEach(l => {
+                x.save();
+                x.translate(tx, ty);
+                x.scale(0.8, 1); // Сильное сжатие
+                x.fillText(l, 0, 0);
+                x.restore();
+                ty += lh;
+            });
+        }
+
+        t.oninput = () => { pos++; draw(); };
+        c.onclick = () => { const a = document.createElement('a'); a.download = 'brat.png'; a.href = c.toDataURL(); a.click(); };
+        window.onload = () => document.fonts.load('10pt "Archivo Narrow"').then(draw);
+    </script>
+</body>
+</html>
