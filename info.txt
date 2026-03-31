@@ -1,0 +1,13 @@
+Folder: AtomGlide-Front
+Files: 5
+
+depcheck-report.json - 67.98 KB
+.DS_Store - 10.00 KB
+craco.config.js - 4.08 KB
+package-lock.json - 806.20 KB
+package.json - 2.11 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00

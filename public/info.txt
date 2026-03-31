@@ -1,0 +1,25 @@
+Folder: public
+Files: 17
+
+feed.html - 12.48 KB
+favicon.ico - 3.78 KB
+index.html - 3.44 KB
+.DS_Store - 6.00 KB
+sad.png - 545.90 KB
+atomwiki.html - 56.15 KB
+logo512.png - 9.44 KB
+nft.png - 1083.35 KB
+atomglidelogo.png - 1241.96 KB
+s.html - 5.42 KB
+23.png - 219.30 KB
+2434.jpg - 22.52 KB
+manifest.json - 0.39 KB
+PICO2.png - 51.04 KB
+logo192.png - 5.22 KB
+1.png - 241.14 KB
+PICO1.png - 44.75 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00

@@ -1,0 +1,17 @@
+Folder: meta-data-github
+Files: 9
+
+test.swift - 0.00 KB
+test.r - 0.00 KB
+test.cpp - 0.00 KB
+test.py - 0.00 KB
+test2.lua - 0.00 KB
+test.lua - 0.00 KB
+test.ts - 0.00 KB
+test.dart - 0.00 KB
+test.asm - 0.00 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00
