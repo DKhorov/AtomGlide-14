@@ -1,0 +1,56 @@
+Folder: fonts
+Files: 48
+
+ofont.ru_Pacifico.ttf - 224.61 KB
+YandexSansDisplay-Bold.eot - 172.14 KB
+YandexSansDisplay-RegularItalic.woff - 63.94 KB
+YandexSansDisplay-Light.eot - 173.38 KB
+YandexSansDisplay-RegularItalic.eot - 171.38 KB
+YandexSansText-RegularItalic.ttf - 184.05 KB
+YandexSansText-RegularItalic.woff2 - 51.77 KB
+YandexSansDisplay-Regular.eot - 169.63 KB
+YandexSansDisplay-Thin.eot - 173.28 KB
+YandexSansText-Light.eot - 180.47 KB
+YandexSansDisplay-Bold.ttf - 171.91 KB
+YandexSansDisplay-Light.woff2 - 47.55 KB
+YandexSansDisplay-Light.ttf - 173.14 KB
+YandexSansDisplay-Thin.woff - 63.75 KB
+YandexSansDisplay-RegularItalic.ttf - 171.12 KB
+YandexSansText-Regular.woff - 66.27 KB
+YandexSansText-RegularItalic.eot - 184.29 KB
+YandexSansText-Medium.woff2 - 51.01 KB
+YandexSansText-Light.ttf - 180.24 KB
+YandexSansText-Thin.woff - 66.36 KB
+YandexSansDisplay-Regular.ttf - 169.39 KB
+YandexSansText-Medium.woff - 67.44 KB
+YandexSansDisplay-Thin.ttf - 173.04 KB
+YandexSansText-Bold.eot - 179.57 KB
+stylesheet.css - 7.02 KB
+JetBrainsMono-ExtraBold.ttf - 272.86 KB
+YandexSansText-Light.woff - 67.57 KB
+YandexSansText-RegularItalic.woff - 68.84 KB
+YandexSansText-Regular.woff2 - 49.88 KB
+YandexSansText-Medium.ttf - 180.24 KB
+YandexSansText-Regular.eot - 179.53 KB
+YandexSansDisplay-Light.woff - 63.93 KB
+YandexSansDisplay-Regular.woff - 62.08 KB
+YandexSansDisplay-Regular.woff2 - 46.19 KB
+sf.ttf - 1777.06 KB
+YandexSansDisplay-RegularItalic.woff2 - 47.59 KB
+YandexSansText-Thin.eot - 180.79 KB
+YandexSansText-Bold.ttf - 179.34 KB
+YandexSansDisplay-Thin.woff2 - 47.14 KB
+YandexSansText-Bold.woff - 66.43 KB
+YandexSansText-Light.woff2 - 50.81 KB
+YandexSansText-Bold.woff2 - 50.32 KB
+YandexSansDisplay-Bold.woff2 - 47.46 KB
+YandexSansText-Medium.eot - 180.47 KB
+YandexSansText-Regular.ttf - 179.29 KB
+YandexSansDisplay-Bold.woff - 63.69 KB
+YandexSansText-Thin.ttf - 180.57 KB
+YandexSansText-Thin.woff2 - 49.82 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00

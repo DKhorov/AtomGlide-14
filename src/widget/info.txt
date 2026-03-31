@@ -1,0 +1,13 @@
+Folder: widget
+Files: 5
+
+panel.jsx - 8.70 KB
+1.jpeg - 1032.37 KB
+widget.jsx - 5.02 KB
+setting.jsx - 9.40 KB
+index.jsx - 8.36 KB
+
+Author: Dmitry Khorov
+Telegram: @dkdevelop @jpegweb
+DK Studio Production 
+2026 год 1 января 00:00
