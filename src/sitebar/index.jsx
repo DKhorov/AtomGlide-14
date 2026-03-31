@@ -257,7 +257,7 @@ const Sitebar = () => {
     if (!articleTitle || !articleTopic || !articleBlocks || !user?._id) return alert('Заполните данные (заголовок, тема и контент)');
     setIsPublishingArticle(true);
     try {
-      const response = await fetch('http://localhost:3001/dev/Journal/create', {
+      const response = await fetch('https://atomglidedev.ru/dev/Journal/create', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title: articleTitle, topic: articleTopic, text: articleBlocks, author: user._id }),
