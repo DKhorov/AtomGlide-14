@@ -124,7 +124,7 @@ const PostCreatorModal = ({ open: externalOpen, onClose: externalOnClose, onPost
       const token = localStorage.getItem("token");
       const formData = new FormData();
       
-      formData.append("title", inputText.trim().split('\n')[0].substring(0, 100) || "Пост");
+      formData.append("title", inputText.trim() || "Пост");
       formData.append("text", inputText.trim());
       formData.append("channelId", selectedChannel);
       
